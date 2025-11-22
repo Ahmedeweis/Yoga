@@ -1,27 +1,29 @@
-// tailwind.config.js
-module.exports = {
-  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Outfit', 'sans-serif'],
+      },
       colors: {
-        primary: {
-          DEFAULT: '#0ea5a4', // مثال — غيّر هنا
-          50: '#e6f7f6',
-          100: '#cfeff0'
-        },
-        accent: '#ff7ab6',
-        bg: '#0f1724', // خلفية عامة داكنة
-        card: '#121826',
+        primary: '#1f2937', // Dark gray for main text/headings
+        secondary: '#4b5563', // Lighter gray for subtext
+        accent: '#8b5cf6', // Purple accent
+        'accent-green': '#10b981', // Green accent
+        'accent-blue': '#3b82f6', // Blue accent
+        'soft-bg': '#f9fafb',
       },
-      animation: {
-        'float-slow': 'float 6s ease-in-out infinite',
+      boxShadow: {
+        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
       },
-      keyframes: {
-        float: {
-          '0%': { transform: 'translateY(0px)' },
-          '50%': { transform: 'translateY(-8px)' },
-          '100%': { transform: 'translateY(0px)' },
-        }
+      backgroundImage: {
+        'hero-gradient': 'linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0))',
       }
     },
   },

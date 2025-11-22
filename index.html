@@ -1,64 +1,78 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <!-- إعدادات أساسية للمتصفح لضبط الترميز ودعم الشاشات الحديثة -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta http-equiv="x-ua-compatible" content="IE=edge" />
-  <!-- لون شريط العنوان في المتصفح والموبايل -->
-  <meta name="theme-color" content="#FDC700" />
-  <!-- تفعيل وضع التطبيق على أندرويد (إزالة شريط العنوان عند التثبيت) -->
-  <meta name="mobile-web-app-capable" content="yes" />
-  <!-- تفعيل وضع التطبيق على iOS (Standalone) -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <!-- تحديد شكل شريط الحالة في iOS عند التشغيل من الشاشة الرئيسية -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <!-- منع iOS من اعتقاد أن الأرقام أرقام هواتف/إيميلات -->
-  <meta name="format-detection" content="telephone=no,email=no,address=no" />
-  <!-- عنوان الصفحة ووصف SEO يظهر في Google -->
-  <title>PRESS Play</title>
-  <!-- وصف SEO يظهر في Google -->
-  <meta name="description"
-    content="لعبة صحفية تفاعلية: بوت يسألك أسئلة في مواقف واقعية، تجاوب بسرعة، تكسب نقاط أو تخسر… وفي النهاية يظهر لك السكور. Press Play وابدأ التحدي!" />
-  <!-- إعدادات Open Graph لتحسين مشاركة الرابط على فيسبوك وواتساب -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Press Play – لعبة الصحفيين" />
-  <meta property="og:title" content="Press Play – لعبة الصحفيين" />
-  <meta property="og:description"
-    content="ادخل في تجربة صحفية حقيقية! جاوب على أسئلة بوت تفاعلي، اجمع نقاط، واطلع سكورك النهائي. لعبة سريعة وممتعة للموبايل والويب." />
-  <meta property="og:image" content="/social-share.png" />
-  <meta property="og:url" content="https://your-game.example/" />
-  <!-- إعدادات Twitter Card لتحسين الظهور عند مشاركة الرابط -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Press Play – لعبة الصحفيين" />
-  <meta name="twitter:description"
-    content="جاوب على أسئلة بوت ذكي في مواقف صحفية واقعية… اجمع نقاطك وشوف سكورك النهائي! اضغط Play وابدأ التحدي." />
-  <meta name="twitter:image" content="/social-share.png" />
-  <!-- أيقونات المتصفح (فاڤيكون) وأيقونة iOS -->
-  <link rel="icon" href="/favicon-32.png" sizes="32x32" />
-  <link rel="icon" href="/favicon-16.png" sizes="16x16" />
-  <link rel="apple-touch-icon" href="https://journalist-game.vercel.app/src/assets/imgs/logo.png" />
-  <!-- ملف manifest الخاص بالـ PWA (الاسم – الأيقونات – ألوان التطبيق) -->
-  <link rel="manifest" href="/manifest.json" />
-  <!-- تهيئة اتصال مبكر بخوادم الخطوط لتسريع تحميلها -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- استيراد خط Rubik من Google Fonts للواجهة -->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
-  <!-- تحميل الخط البرمجي (LOCALLY) قبل الحاجة له — يقلّل الوميض -->
-  <link rel="preload" href="/src/assets/fonts/Rubik-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <!-- Preload لملف جافاسكريبت الرئيسي لتسريع بدء التطبيق -->
-  <link rel="preload" href="/src/main.js" as="script">
-  <!-- لون خاص لـ Windows Tiles عند التثبيت -->
-  <meta name="msapplication-TileColor" content="#0f1724" />
-  <!-- عنوان التطبيق عند إضافته كشورت كت على iPhone -->
-  <meta name="apple-mobile-web-app-title" content="Press Play" />
-</head>
-
-<body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
-</body>
-
+  <head>
+    <!-- إعدادات أساسية للمتصفح لضبط الترميز ودعم الشاشات الحديثة -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <!-- لون شريط العنوان في المتصفح والموبايل -->
+    <meta name="theme-color" content="#E7DCD3" />
+    <!-- تفعيل وضع التطبيق على أندرويد (إزالة شريط العنوان عند التثبيت) -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- تفعيل وضع التطبيق على iOS (Standalone) -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- تحديد شكل شريط الحالة في iOS عند التشغيل من الشاشة الرئيسية -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- منع iOS من اعتقاد أن الأرقام أرقام هواتف/إيميلات -->
+    <meta name="format-detection" content="telephone=no,email=no,address=no" />
+    <!-- عنوان الصفحة ووصف SEO يظهر في Google -->
+    <title>ZenFlow Yoga Studio | Meditation, Wellness & Mindful Living Classes</title>
+    <!-- وصف SEO يظهر في Google -->
+    <meta name="description"
+      content="Transform your life through yoga, meditation, and wellness at ZenFlow Yoga Studio. Expert instructors, calming atmosphere, and holistic mind-body practices for healthy living. Join 150+ members on a journey to inner peace and body flow." />
+    <!-- SEO Keywords -->
+    <meta name="keywords" content="yoga studio, meditation classes, wellness center, mindfulness, yoga practice, breathing exercises, mind body connection, healthy lifestyle, yoga instructors, stretching, body flow, inner peace, holistic wellness, yoga community, fitness studio, mental health, stress relief, yoga meditation" />
+    <!-- Robots & Indexing -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <!-- Author & Copyright -->
+    <meta name="author" content="ZenFlow Yoga Studio" />
+    <meta name="copyright" content="© 2025 ZenFlow Yoga Studio. All rights reserved." />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://zenflow-yoga.example/" />
+    <!-- إعدادات Open Graph لتحسين مشاركة الرابط على فيسبوك وواتساب -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ZenFlow Yoga Studio" />
+    <meta property="og:title" content="ZenFlow Yoga Studio | Transform Your Life Through Meditation & Wellness" />
+    <meta property="og:description"
+      content="Discover inner peace and body transformation at ZenFlow Yoga Studio. Expert-led yoga classes, meditation sessions, and wellness programs in a calming atmosphere. Join our welcoming community of 150+ members today." />
+    <meta property="og:image" content="/yoga-social-share.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ZenFlow Yoga Studio - Meditation and Wellness Classes" />
+    <meta property="og:url" content="https://zenflow-yoga.example/" />
+    <meta property="og:locale" content="en_US" />
+    <!-- إعدادات Twitter Card لتحسين الظهور عند مشاركة الرابط -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZenFlow Yoga Studio | Meditation, Wellness & Mindful Living" />
+    <meta name="twitter:description"
+      content="Transform your lifestyle with yoga, meditation & wellness classes. Expert instructors, calming atmosphere, and a supportive community. Experience the power of mindful living at ZenFlow." />
+    <meta name="twitter:image" content="/yoga-social-share.png" />
+    <meta name="twitter:image:alt" content="ZenFlow Yoga Studio - Peaceful meditation and yoga practice" />
+    <!-- أيقونات المتصفح (فاڤيكون) وأيقونة iOS -->
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-16.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="apple-touch-icon" href="https://journalist-game.vercel.app/src/assets/imgs/logo.png" />
+    <!-- ملف manifest الخاص بالـ PWA (الاسم – الأيقونات – ألوان التطبيق) -->
+    <link rel="manifest" href="/manifest.json" />
+    <!-- تهيئة اتصال مبكر بخوادم الخطوط لتسريع تحميلها -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- استيراد خط Rubik من Google Fonts للواجهة -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <!-- تحميل الخط البرمجي (LOCALLY) قبل الحاجة له — يقلّل الوميض -->
+    <link rel="preload" href="/src/assets/fonts/Rubik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Preload لملف جافاسكريبت الرئيسي لتسريع بدء التطبيق -->
+    <link rel="preload" href="/src/main.js" as="script">
+    <!-- لون خاص لـ Windows Tiles عند التثبيت -->
+    <meta name="msapplication-TileColor" content="#E7DCD3" />
+    <!-- عنوان التطبيق عند إضافته كشورت كت على iPhone -->
+    <meta name="apple-mobile-web-app-title" content="ZenFlow Yoga" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
