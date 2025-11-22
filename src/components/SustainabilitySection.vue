@@ -2,8 +2,8 @@
   <section class="relative py-32 px-6 w-full overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-      <img src="https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?auto=format&fit=crop&w=1600&q=80" alt="Sustainability" class="w-full h-full object-cover" />
-      <div class="absolute inset-0 bg-black/30"></div>
+      <img src="/src/assets/imgs/sustainability-yoga.jpg" alt="Sustainability" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-black/40"></div>
     </div>
 
     <!-- Content -->
@@ -27,11 +27,11 @@
 
       <!-- Floating Card (Right) -->
       <div class="mt-12 md:mt-0 max-w-xs w-full">
-         <div class="bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-2xl flex items-center gap-4">
-            <img src="https://images.unsplash.com/photo-1544367563-12123d8965cd?auto=format&fit=crop&w=100&q=80" alt="Instructor" class="w-12 h-12 rounded-full object-cover border-2 border-white" />
+         <div class="bg-white/15 backdrop-blur-lg border border-white/30 p-5 rounded-2xl flex items-center gap-4 shadow-xl">
+            <img src="https://images.unsplash.com/photo-1544367563-12123d8965cd?auto=format&fit=crop&w=100&q=80" alt="Instructor" class="w-14 h-14 rounded-full object-cover border-2 border-white/40" />
             <div>
                <p class="text-sm font-bold">Experience the future</p>
-               <p class="text-xs opacity-70">of meditation.</p>
+               <p class="text-xs opacity-80">of meditation.</p>
             </div>
          </div>
       </div>

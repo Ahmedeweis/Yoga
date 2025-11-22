@@ -7,8 +7,8 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Card 1 -->
-        <div class="group relative h-[400px] rounded-3xl overflow-hidden cursor-pointer">
-          <img src="https://images.unsplash.com/photo-1544367563-12123d8965cd?auto=format&fit=crop&w=800&q=80" alt="Improved Flexibility" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+        <div class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer">
+          <img src="/src/assets/imgs/journey-flexibility.jpg" alt="Improved Flexibility" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-8 text-white">
             <h3 class="text-xl font-bold mb-2">Improved Flexibility</h3>
@@ -25,7 +25,7 @@
         </div>
 
         <!-- Card 2 -->
-        <div class="group relative h-[400px] rounded-3xl overflow-hidden cursor-pointer mt-0 md:-mt-8"> <!-- Staggered effect -->
+        <div class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer mt-0 md:-mt-12"> <!-- Staggered effect -->
           <img src="https://images.unsplash.com/photo-1599447421405-0c323d27bb83?auto=format&fit=crop&w=800&q=80" alt="Stress Reduction" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-8 text-white">
@@ -37,7 +37,7 @@
         </div>
 
         <!-- Card 3 -->
-        <div class="group relative h-[400px] rounded-3xl overflow-hidden cursor-pointer">
+        <div class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer">
           <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80" alt="Mental Clarity" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
           <div class="absolute bottom-0 left-0 p-8 text-white">

@@ -2,7 +2,7 @@
   <section class="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-      <img src="https://images.unsplash.com/photo-1593164842264-854604db8a4e?q=80&w=2070&auto=format&fit=crop" alt="Yoga Meditation" class="w-full h-full object-cover object-center" />
+      <img src="/src/assets/imgs/hero-meditation.jpg" alt="Yoga Meditation" class="w-full h-full object-cover object-center" />
       <!-- Overlay Gradient for text readability -->
       <div class="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-transparent"></div>
     </div>
@@ -26,46 +26,46 @@
         </button>
 
         <!-- Stats/Tags -->
-        <div class="mt-20 flex items-center gap-6 text-xs font-medium opacity-80">
-          <div class="flex items-center gap-2">
-            <div class="w-1.5 h-1.5 bg-white rounded-full"></div>
+        <div class="mt-24 flex items-center gap-8 text-xs font-medium opacity-90">
+          <div class="flex items-center gap-2.5">
+            <div class="w-2 h-2 bg-white rounded-full"></div>
             <span>Healthy Life</span>
           </div>
-          <div class="flex items-center gap-2">
-            <div class="w-1.5 h-1.5 bg-white rounded-full"></div>
+          <div class="flex items-center gap-2.5">
+            <div class="w-2 h-2 bg-white rounded-full"></div>
             <span>Mind Peace</span>
           </div>
-          <div class="flex items-center gap-2">
-            <div class="w-1.5 h-1.5 bg-white rounded-full"></div>
+          <div class="flex items-center gap-2.5">
+            <div class="w-2 h-2 bg-white rounded-full"></div>
             <span>Body Flow</span>
           </div>
-          <div class="flex items-center gap-2">
-            <div class="w-1.5 h-1.5 bg-white rounded-full"></div>
+          <div class="flex items-center gap-2.5">
+            <div class="w-2 h-2 bg-white rounded-full"></div>
             <span>Be Calm</span>
           </div>
         </div>
       </div>
 
       <!-- Floating Card (Bottom Right) -->
-      <div class="absolute bottom-20 right-6 md:right-20 max-w-xs w-full">
-        <div class="bg-white/10 backdrop-blur-md border border-white/20 p-5 rounded-3xl text-white shadow-glass">
-          <div class="flex items-center gap-3 mb-4">
+      <div class="absolute bottom-16 right-6 md:right-16 max-w-[280px] w-full">
+        <div class="bg-white/15 backdrop-blur-lg border border-white/30 p-6 rounded-3xl text-white shadow-2xl">
+          <div class="flex items-center gap-3 mb-5">
             <div class="flex -space-x-2">
-              <div class="w-8 h-8 rounded-full bg-gray-300 border-2 border-white/20"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-400 border-2 border-white/20"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-500 border-2 border-white/20"></div>
+              <div class="w-9 h-9 rounded-full bg-gray-300 border-2 border-white/30"></div>
+              <div class="w-9 h-9 rounded-full bg-gray-400 border-2 border-white/30"></div>
+              <div class="w-9 h-9 rounded-full bg-gray-500 border-2 border-white/30"></div>
             </div>
             <div class="text-xs">
-              <span class="block font-bold">150+</span>
-              <span class="opacity-70">Members</span>
+              <span class="block font-bold text-sm">150+</span>
+              <span class="opacity-80">Members</span>
             </div>
           </div>
-          <p class="text-xs opacity-80 mb-3 leading-relaxed">
+          <p class="text-xs opacity-90 mb-4 leading-relaxed">
             "The atmosphere is very calm for doing yoga"
           </p>
           <div class="flex items-end justify-between">
-            <div class="text-4xl font-display font-bold">4.9 <span class="text-lg text-yellow-400">★</span></div>
-            <div class="text-xs opacity-60">Rating</div>
+            <div class="text-5xl font-display font-bold leading-none">4.9 <span class="text-xl text-yellow-300">★</span></div>
+            <div class="text-xs opacity-70 pb-1">Rating</div>
           </div>
         </div>
       </div>

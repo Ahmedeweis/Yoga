@@ -9,7 +9,7 @@
         <!-- Left Image -->
         <div class="w-full md:w-1/2 relative">
           <div class="rounded-3xl overflow-hidden h-[500px] relative">
-            <img src="https://images.unsplash.com/photo-1552196563-55cd4e45efb3?auto=format&fit=crop&w=800&q=80" alt="Yoga Pose" class="w-full h-full object-cover" />
+            <img src="/src/assets/imgs/faq-yoga-pose.jpg" alt="Yoga Pose" class="w-full h-full object-cover" />
             <!-- Overlay Card -->
             <div class="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl text-white">
               <p class="font-bold text-lg mb-2">Need any help? Don't hesitate to join us.</p>

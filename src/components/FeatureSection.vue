@@ -1,7 +1,7 @@
 <template>
   <section class="py-20 px-6 bg-white">
     <div class="container mx-auto">
-      <div class="flex flex-col md:flex-row items-center gap-16">
+      <div class="flex flex-col md:flex-row items-center gap-20">
         <!-- Left Content -->
         <div class="w-full md:w-1/2">
           <h2 class="text-3xl md:text-4xl font-display font-bold text-primary mb-12 leading-tight">
@@ -9,7 +9,7 @@
             Self Of Yoga
           </h2>
 
-          <div class="space-y-8">
+          <div class="space-y-10">
             <!-- Feature 1 -->
             <div class="flex gap-6">
               <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-purple-100 flex items-center justify-center text-purple-600">
@@ -60,7 +60,7 @@
         <!-- Right Image -->
         <div class="w-full md:w-1/2 relative">
           <div class="relative rounded-3xl overflow-hidden h-[500px]">
-            <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?auto=format&fit=crop&w=800&q=80" alt="Yoga Practice" class="w-full h-full object-cover" />
+            <img src="/src/assets/imgs/feature-yoga-practice.jpg" alt="Yoga Practice" class="w-full h-full object-cover" />
 
             <!-- Play Button Overlay -->
             <div class="absolute bottom-8 right-8">

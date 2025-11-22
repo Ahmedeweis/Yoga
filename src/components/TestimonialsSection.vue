@@ -2,7 +2,7 @@
   <section class="py-20 px-6 bg-soft-bg">
     <div class="container mx-auto">
       <h2 class="text-3xl md:text-4xl font-display font-bold text-primary mb-12">
-        Meet Expert Instructor
+        What Our Members Say
       </h2>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
