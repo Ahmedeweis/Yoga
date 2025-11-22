@@ -28,7 +28,7 @@
       <!-- Floating Card (Right) -->
       <div class="mt-12 md:mt-0 max-w-xs w-full">
          <div class="bg-white/15 backdrop-blur-lg border border-white/30 p-5 rounded-2xl flex items-center gap-4 shadow-xl">
-            <img src="https://images.unsplash.com/photo-1544367563-12123d8965cd?auto=format&fit=crop&w=100&q=80" alt="Instructor" class="w-14 h-14 rounded-full object-cover border-2 border-white/40" />
+            <img src="/src/assets/imgs/journey-flexibility.jpg" alt="Instructor" class="w-14 h-14 rounded-full object-cover border-2 border-white/40" />
             <div>
                <p class="text-sm font-bold">Experience the future</p>
                <p class="text-xs opacity-80">of meditation.</p>
