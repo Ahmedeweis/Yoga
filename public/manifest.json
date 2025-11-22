@@ -1,0 +1,27 @@
+{
+  "name": "Press Play – لعبة الصحفيين",
+  "short_name": "PressPlay",
+  "description": "لعبة صحفية تفاعلية: بوت يسألك أسئلة في مواقف واقعية، تجاوب بسرعة، تكسب نقاط أو تخسر… وفي النهاية يظهر لك السكور.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDC700",
+  "theme_color": "#FDC700",
+  "orientation": "portrait",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/icons/ico-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/ico-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
