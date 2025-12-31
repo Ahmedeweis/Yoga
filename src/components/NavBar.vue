@@ -5,11 +5,10 @@
         <!-- Logo -->
         <div class="flex items-center gap-3">
           <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden p-1">
-            <img src="https://placehold.co/40x40" alt="Logo" class="w-full h-full object-contain" />
+            <img src="../assets/imgs/logo.png" alt="Logo" class="w-full h-full object-contain" />
           </div>
           <span class="font-display font-bold text-xl tracking-wide">Medtronic</span>
         </div>
-
         <!-- Links -->
         <ul class="hidden md:flex items-center gap-10 text-sm font-medium tracking-wide opacity-90">
           <li><a href="#" class="hover:opacity-100 transition-opacity">Home</a></li>
@@ -18,7 +17,6 @@
           <li><a href="#" class="hover:opacity-100 transition-opacity">Contact</a></li>
           <li><a href="#" class="hover:opacity-100 transition-opacity">Newsletter</a></li>
         </ul>
-
         <!-- Auth -->
         <div class="flex items-center gap-8 text-sm font-medium">
           <a href="#" class="hidden md:block hover:opacity-100 transition-opacity opacity-90">Log in</a>
@@ -35,7 +33,6 @@
     </div>
   </div>
 </template>
-
 <script setup>
 // NavBar Component
 </script>
