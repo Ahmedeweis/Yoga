@@ -33,13 +33,13 @@
       </div>
 
       <!-- Middle Section: Newsletter and Links -->
-      <div class="flex flex-col lg:flex-row justify-between gap-8 mb-16 border-t border-white/10 pt-12">
+      <div class="flex flex-col lg:flex-row justify-between gap-12 mb-16 border-t border-white/10 pt-12">
         <!-- Left: Newsletter & Socials -->
-        <div class="w-full lg:w-1/2">
+        <div class="w-full lg:w-2/5">
           <p class="text-sm opacity-70 mb-4">Subscribe to stay updated</p>
-          <div class="flex items-center bg-white rounded-full p-1 pl-4 max-w-xs mb-8">
+          <div class="flex items-center bg-white rounded-full p-1 pl-4 max-w-sm mb-8">
             <input type="email" placeholder="Enter your email" class="bg-transparent border-none outline-none text-sm w-full text-gray-800 placeholder-gray-400" />
-            <button class="w-10 h-10 bg-[#1f2937] text-white rounded-full flex items-center justify-center hover:bg-black transition-colors">
+            <button class="w-10 h-10 bg-[#1f2937] text-white rounded-full flex items-center justify-center hover:bg-black transition-colors shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
                 <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
               </svg>
@@ -62,62 +62,58 @@
           </div>
         </div>
 
-        <!-- Links Columns -->
-        <div class="flex flex-wrap gap-6 md:gap-12 w-full lg:w-1/2">
+        <!-- Right: Links Columns in Single Row -->
+        <div class="grid grid-cols-3 gap-8 w-full lg:w-3/5">
           <!-- Contacts -->
-          <div class="w-1/3">
-            <h4 class="font-bold mb-6">Contacts</h4>
+          <div>
+            <h4 class="font-bold mb-6 text-base">Contacts</h4>
             <ul class="space-y-4 text-sm opacity-70">
               <li class="flex items-start gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0 mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0 mt-0.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
                 <span>250 Hawtown, New York</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0 mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0 mt-0.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                 </svg>
                 <span>+9158 8584 9857</span>
               </li>
               <li class="flex items-start gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0 mt-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0 mt-0.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
                 <span>hello@seative.digital</span>
               </li>
             </ul>
           </div>
+
           <!-- Services -->
-          <div class="w-1/3">
-            <h4 class="font-bold mb-6">Services</h4>
+          <div>
+            <h4 class="font-bold mb-6 text-base">Services</h4>
             <ul class="space-y-4 text-sm opacity-70">
-              <li><a href="#" class="hover:text-white transition-colors">Meditation</a></li>
-              <li><a href="#" class="hover:text-white transition-colors">Mind Bloom</a></li>
-              <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">Meditation</a></li>
+              <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">Mind Bloom</a></li>
+              <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">About Us</a></li>
             </ul>
           </div>
 
           <!-- Explore -->
-          <div class="w-1/3">
-            <h4 class="font-bold mb-6">Explore</h4>
+          <div>
+            <h4 class="font-bold mb-6 text-base">Explore</h4>
             <ul class="space-y-4 text-sm opacity-70">
-              <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" class="hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="#" class="hover:text-white transition-colors">Site map</a></li>
+              <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">About Us</a></li>
+              <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">FAQ</a></li>
+              <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">Site map</a></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs opacity-40">
-        <p>&copy; 2025 ZenFlow Yoga Studio. All rights reserved.</p>
-        <div class="flex gap-8 mt-4 md:mt-0">
-          <a href="#" class="hover:text-white transition-colors">Privacy</a>
-          <a href="#" class="hover:text-white transition-colors">Terms</a>
-          <a href="#" class="hover:text-white transition-colors">Sitemap</a>
-        </div>
+      <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-center items-center ">
+        <p class="text-white">&copy; 2025 Falcone Core Studio. All rights reserved.</p>
       </div>
     </div>
   </footer>
