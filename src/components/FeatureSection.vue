@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-6 bg-white">
+  <section id="about" class="py-20 px-6 bg-white">
     <div class="container mx-auto">
       <div class="flex flex-col md:flex-row items-center gap-20">
         <!-- Left Content -->

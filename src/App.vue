@@ -8,6 +8,7 @@ import InstructorsSection from './components/InstructorsSection.vue'
 import FaqSection from './components/FaqSection.vue'
 import TestimonialsSection from './components/TestimonialsSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import ScrollToTop from './components/ScrollToTop.vue'
 </script>
 
 <template>
@@ -21,5 +22,6 @@ import FooterSection from './components/FooterSection.vue'
     <FaqSection />
     <TestimonialsSection />
     <FooterSection />
+    <ScrollToTop />
   </div>
 </template>

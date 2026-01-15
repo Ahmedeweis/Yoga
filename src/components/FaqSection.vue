@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-6 bg-white overflow-hidden">
+  <section id="FQA" class="py-20 px-6 bg-white overflow-hidden">
     <div class="container mx-auto">
       <h2 class="text-3xl md:text-5xl font-display font-bold text-center mb-16 text-primary">
         Common Questions

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-[#141414] text-white pt-20 pb-10 px-6 relative overflow-hidden">
+  <footer id="contact" class="bg-[#141414] text-white pt-20 pb-10 px-6 relative overflow-hidden">
     <!-- Background Image -->
     <div class="absolute top-0 left-0 w-full h-3/4 z-0 opacity-30 pointer-events-none">
       <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1600&q=80" alt="Footer Background" class="w-full h-full object-cover object-top" />
@@ -35,7 +35,7 @@
       <!-- Middle Section: Newsletter and Links -->
       <div class="flex flex-col lg:flex-row justify-between gap-12 mb-16 border-t border-white/10 pt-12">
         <!-- Left: Newsletter & Socials -->
-        <div class="w-full lg:w-2/5">
+        <div id="newsletter" class="w-full lg:w-2/5">
           <p class="text-sm opacity-70 mb-4">Subscribe to stay updated</p>
           <div class="flex items-center bg-white rounded-full p-1 pl-4 max-w-sm mb-8">
             <input type="email" placeholder="Enter your email" class="bg-transparent border-none outline-none text-sm w-full text-gray-800 placeholder-gray-400" />
@@ -85,7 +85,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0 mt-0.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
-                <span>hello@seative.digital</span>
+                <span>ahmed.eweiis@gmail.com</span>
               </li>
             </ul>
           </div>

@@ -10,13 +10,17 @@
           <span class="font-display font-bold text-xl tracking-wide group-hover:text-gray-200 transition-colors">Medtronic</span>
         </div>
         
+
         <!-- Desktop Links -->
         <ul class="hidden md:flex items-center gap-10 text-sm font-medium tracking-wide opacity-90">
-          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Home</a></li>
-          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Classes</a></li>
-          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">About</a></li>
-          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Contact</a></li>
-          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Newsletter</a></li>
+          <li><a href="#home" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Home</a></li>
+          <li><a href="#classes" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Journey</a></li>
+          <li><a href="#about" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">About</a></li>
+          
+          <li><a href="#Sustainability" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Efficiency</a></li>
+          <li><a href="#Instructors" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Instructors</a></li>
+          <li><a href="#FQA" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">FQA</a></li>
+          <li><a href="#contact" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">contact</a></li>
         </ul>
 
         <!-- Desktop Auth -->
@@ -47,11 +51,11 @@
     <!-- Mobile Menu Overlay -->
     <div v-if="isMobileMenuOpen" class="absolute top-full left-0 right-0 mt-2 mx-6 p-6 bg-[#1f2937] rounded-3xl text-white shadow-2xl border border-white/10 md:hidden flex flex-col gap-6 animate-fade-in-down">
       <ul class="flex flex-col gap-4 text-center text-lg font-medium">
-        <li><a href="#" class="block py-2 hover:text-gray-300">Home</a></li>
-        <li><a href="#" class="block py-2 hover:text-gray-300">Classes</a></li>
-        <li><a href="#" class="block py-2 hover:text-gray-300">About</a></li>
-        <li><a href="#" class="block py-2 hover:text-gray-300">Contact</a></li>
-        <li><a href="#" class="block py-2 hover:text-gray-300">Newsletter</a></li>
+        <li><a href="#home" class="block py-2 hover:text-gray-300">Home</a></li>
+        <li><a href="#classes" class="block py-2 hover:text-gray-300">Classes</a></li>
+        <li><a href="#about" class="block py-2 hover:text-gray-300">About</a></li>
+        <li><a href="#contact" class="block py-2 hover:text-gray-300">Contact</a></li>
+        <li><a href="#newsletter" class="block py-2 hover:text-gray-300">Newsletter</a></li>
       </ul>
       <div class="flex flex-col items-center gap-4 border-t border-white/10 pt-6">
         <a href="#" class="font-medium hover:text-gray-300">Log in</a>

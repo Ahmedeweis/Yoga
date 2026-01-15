@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden">
+  <section id="home" class="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
       <img src="/src/assets/imgs/hero-meditation.webp" alt="Yoga Meditation" class="w-full h-full object-cover object-center" />

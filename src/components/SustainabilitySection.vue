@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full h-screen min-h-[700px] flex flex-col overflow-hidden">
+  <section id="Sustainability" class="relative w-full h-screen min-h-[700px] flex flex-col overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
       <img src="/src/assets/imgs/sustainability-yoga.webp" alt="Sustainability" class="w-full h-full object-cover" />
