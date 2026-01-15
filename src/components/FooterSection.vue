@@ -47,11 +47,11 @@
           </div>
 
           <div class="flex gap-4">
-            <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[#1f2937] transition-all">
+            <a href="#" @click.prevent="openFacebook" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[#1f2937] transition-all">
               <span class="sr-only">Facebook</span>
               <svg fill="currentColor" viewBox="0 0 24 24" class="w-4 h-4"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
             </a>
-            <a href="#" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[#1f2937] transition-all">
+            <a href="#" @click.prevent="openX" class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-[#1f2937] transition-all">
               <span class="sr-only">Twitter</span>
               <svg fill="currentColor" viewBox="0 0 24 24" class="w-4 h-4"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
             </a>
@@ -79,7 +79,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0 mt-0.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                 </svg>
-                <span>+9158 8584 9857</span>
+                <span>+20 115 316 1437</span>
               </li>
               <li class="flex items-start gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 shrink-0 mt-0.5">
@@ -104,6 +104,7 @@
           <div>
             <h4 class="font-bold mb-6 text-base">Explore</h4>
             <ul class="space-y-4 text-sm opacity-70">
+              <li><button @click="openPortfolio" class="hover:text-white hover:opacity-100 transition-all text-left">Portfolio</button></li>
               <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">About Us</a></li>
               <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">FAQ</a></li>
               <li><a href="#" class="hover:text-white hover:opacity-100 transition-all">Site map</a></li>
@@ -113,12 +114,46 @@
       </div>
 
       <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-center items-center ">
-        <p class="text-white">&copy; 2025 Falcone Core Studio. All rights reserved.</p>
+        <p class="text-white">&copy; {{ currentYear }} <span class="font-bold cursor-pointer hover:text-gray-300" @click="openInstagram">Ahmed Eweis</span>. All rights reserved.</p>
       </div>
     </div>
   </footer>
 </template>
 
 <script setup>
-// FooterSection Component
+const currentYear = new Date().getFullYear();
+
+const openInstagram = () => {
+  const now = Date.now();
+  window.location.href = "instagram://user?username=ahmed_eweis0";
+  setTimeout(() => {
+    if (Date.now() - now < 1500) {
+      window.location.href = "https://www.instagram.com/ahmed_eweis0/";
+    }
+  }, 1000);
+}
+
+const openFacebook = () => {
+  const now = Date.now();
+  window.location.href = "fb://profile/Wesso00";
+  setTimeout(() => {
+    if (Date.now() - now < 1500) {
+      window.location.href = "https://www.facebook.com/Wesso00";
+    }
+  }, 1000);
+}
+
+const openX = () => {
+  const now = Date.now();
+  window.location.href = "twitter://user?screen_name=ahmed_eweis0";
+  setTimeout(() => {
+    if (Date.now() - now < 1500) {
+      window.location.href = "https://x.com/ahmed_eweis0";
+    }
+  }, 1000);
+}
+
+const openPortfolio = () => {
+  window.location.href = "https://falcon-core.vercel.app/";
+}
 </script>

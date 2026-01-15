@@ -2,7 +2,7 @@
   <section class="relative w-full h-screen min-h-[700px] flex items-center overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-      <img src="/src/assets/imgs/hero-meditation.jpg" alt="Yoga Meditation" class="w-full h-full object-cover object-center" />
+      <img src="/src/assets/imgs/hero-meditation.webp" alt="Yoga Meditation" class="w-full h-full object-cover object-center" />
       <!-- Overlay Gradient for text readability -->
       <div class="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-transparent"></div>
     </div>
@@ -26,7 +26,7 @@
         </button>
 
         <!-- Stats/Tags -->
-        <div class="mt-24 flex items-center gap-8 font-medium opacity-90">
+        <div class="mt-24 flex flex-wrap items-center gap-8 font-medium opacity-90">
           <div class="flex items-center gap-2.5">
             <span>Popular Tages</span>
           </div>
@@ -46,18 +46,18 @@
       </div>
 
       <!-- Floating Card (Bottom Right) -->
-      <div class="absolute bottom-16 right-6 md:right-16 max-w-[280px] w-full">
+      <div class="absolute bottom-16 right-6 md:right-16 max-w-[280px] w-full hidden md:block">
         <div class="bg-white/15 backdrop-blur-lg border border-white/30 p-6 rounded-3xl text-white shadow-2xl">
           <div class="flex items-center gap-3 mb-5">
             <div class="flex -space-x-2">
               <div class="w-9 h-9 rounded-full border-2 border-white/30">
-                <img src="../assets/imgs/member1.png" style="border-radius: 50%;" alt="Yoga Meditation" class="rounded-full  w-full h-full object-cover object-center" />
+                <img src="../assets/imgs/member1.webp" style="border-radius: 50%;" alt="Yoga Meditation" class="rounded-full  w-full h-full object-cover object-center" />
               </div>
               <div class="w-9 h-9 rounded-full border-2 border-white/30">
-                 <img src="../assets/imgs/member2.png" style="border-radius: 50%;" class="  w-full h-full object-cover object-center">
+                 <img src="../assets/imgs/member2.webp" style="border-radius: 50%;" class="  w-full h-full object-cover object-center">
               </div>
               <div class="w-9 h-9 rounded-full border-2 border-white/30">
-                <img src="../assets/imgs/member3.png" style="border-radius: 50%;" class="  w-full h-full object-cover object-center">
+                <img src="../assets/imgs/member3.webp" style="border-radius: 50%;" class="  w-full h-full object-cover object-center">
               </div>
             </div>
             <div class="text-xs">

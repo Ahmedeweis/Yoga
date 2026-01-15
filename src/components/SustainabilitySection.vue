@@ -2,7 +2,7 @@
   <section class="relative w-full h-screen min-h-[700px] flex flex-col overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-      <img src="/src/assets/imgs/sustainability-yoga.jpg" alt="Sustainability" class="w-full h-full object-cover" />
+      <img src="/src/assets/imgs/sustainability-yoga.webp" alt="Sustainability" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-black/20"></div> <!-- Lighter overlay as per image -->
     </div>
 
@@ -31,12 +31,12 @@
       <div class="flex flex-col lg:flex-row items-end justify-between gap-6 w-full">
 
         <!-- Left Card: Trust/Community -->
-        <div class="bg-white/10 backdrop-blur-xl border border-white/10 p-5 rounded-3xl w-[300px] max-w-sm text-white shadow-2xl shrink-0">
+        <div class="bg-white/10 backdrop-blur-xl border border-white/10 p-5 rounded-3xl w-full md:w-[300px] max-w-sm text-white shadow-2xl shrink-0">
            <div class="flex items-center justify-between mb-4">
               <div class="flex -space-x-3">
-                 <img src="/src/assets/imgs/member1.png" class="w-10 h-10 rounded-full border-2 border-white/20 object-cover" />
-                 <img src="/src/assets/imgs/member2.png" class="w-10 h-10 rounded-full border-2 border-white/20 object-cover" />
-                 <img src="/src/assets/imgs/member3.png" class="w-10 h-10 rounded-full border-2 border-white/20 object-cover" />
+                 <img src="/src/assets/imgs/member1.webp" class="w-10 h-10 rounded-full border-2 border-white/20 object-cover" />
+                 <img src="/src/assets/imgs/member2.webp" class="w-10 h-10 rounded-full border-2 border-white/20 object-cover" />
+                 <img src="/src/assets/imgs/member3.webp" class="w-10 h-10 rounded-full border-2 border-white/20 object-cover" />
               </div>
               <div class="text-xs font-semibold flex items-center gap-2">
                  <span class="bg-white/20 px-2 py-1 rounded-lg">Plus 26k</span>
@@ -54,7 +54,7 @@
             <div class="bg-white/10 backdrop-blur-xl border border-white/10 p-4 pr-8 rounded-3xl w-full lg:w-[400px] shrink-0 text-white shadow-2xl flex items-center gap-5 z-20">
             <!-- Thumbnail -->
             <div class="relative w-24 h-24 shrink-0 rounded-2xl overflow-hidden group cursor-pointer">
-                <img src="/src/assets/imgs/journey-flexibility.jpg" class="w-full h-full object-cover" />
+                <img src="/src/assets/imgs/journey-flexibility.webp" class="w-full h-full object-cover" />
                 <!-- Overlay -->
                 <div class="absolute inset-0 bg-black/10"></div>
                 <!-- Play Button: Top Left -->

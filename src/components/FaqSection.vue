@@ -9,7 +9,7 @@
         <!-- Left Image Card -->
         <div class="w-full lg:w-[45%] relative group">
           <div class="rounded-[40px] overflow-hidden h-[500px] relative shadow-2xl">
-            <img src="/src/assets/imgs/faq-yoga-pose.jpg" alt="Yoga Pose" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <img src="/src/assets/imgs/faq-yoga-pose.webp" alt="Yoga Pose" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <!-- Overlay Content -->
             <div class="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent"></div>
 

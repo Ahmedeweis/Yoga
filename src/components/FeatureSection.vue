@@ -84,7 +84,7 @@
         <!-- Right Image -->
         <div class="w-full md:w-1/2 relative">
           <div class="relative rounded-3xl overflow-hidden h-[500px]">
-            <img src="/src/assets/imgs/feature-yoga-practice.jpg" alt="Yoga Practice" class="w-full h-full object-cover" />
+            <img src="/src/assets/imgs/feature-yoga-practice.webp" alt="Yoga Practice" class="w-full h-full object-cover" />
 
             <!-- Play Button Overlay -->
             <!-- Play Video Card -->

@@ -31,7 +31,7 @@
           </p>
 
           <div class="flex items-center gap-4 border-t border-gray-50 pt-6">
-            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="w-12 h-12 rounded-full ring-2 ring-white shadow-lg shrink-0" />
+            <img src="https://randomuser.me/api/portraits/women/44.webp" alt="User" class="w-12 h-12 rounded-full ring-2 ring-white shadow-lg shrink-0" />
             <div>
               <p class="text-sm font-bold text-gray-900">Jane Doe</p>
               <p class="text-xs text-gray-500 font-medium">Designer</p>
@@ -57,7 +57,7 @@
           </p>
 
           <div class="flex items-center gap-4 border-t border-gray-50 pt-6">
-            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" class="w-12 h-12 rounded-full ring-2 ring-white shadow-lg shrink-0" />
+            <img src="https://randomuser.me/api/portraits/men/32.webp" alt="User" class="w-12 h-12 rounded-full ring-2 ring-white shadow-lg shrink-0" />
             <div>
               <p class="text-sm font-bold text-gray-900">John Smith</p>
               <p class="text-xs text-gray-500 font-medium">Developer</p>
@@ -83,7 +83,7 @@
           </p>
 
           <div class="flex items-center gap-4 border-t border-gray-50 pt-6">
-            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User" class="w-12 h-12 rounded-full ring-2 ring-white shadow-lg shrink-0" />
+            <img src="https://randomuser.me/api/portraits/women/68.webp" alt="User" class="w-12 h-12 rounded-full ring-2 ring-white shadow-lg shrink-0" />
             <div>
               <p class="text-sm font-bold text-gray-900">Emily White</p>
               <p class="text-xs text-gray-500 font-medium">Teacher</p>
