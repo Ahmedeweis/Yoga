@@ -11,7 +11,7 @@
 
           <div class="space-y-10">
             <!-- Feature 1 -->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 group cursor-default transition-transform duration-300 hover:translate-x-2">
               <div class="flex gap-6">
                 <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-purple-100 flex items-center justify-center text-purple-600">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -34,7 +34,7 @@
             </div>
 
             <!-- Feature 2 -->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 group cursor-default transition-transform duration-300 hover:translate-x-2">
               <div class="flex gap-6">
                 <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-green-100 flex items-center justify-center text-green-600">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -57,7 +57,7 @@
             </div>
 
             <!-- Feature 3 -->
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 group cursor-default transition-transform duration-300 hover:translate-x-2">
               <div class="flex gap-6">
                 <div class="flex-shrink-0 w-12 h-12 rounded-2xl bg-blue-100 flex items-center justify-center text-blue-600">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -102,7 +102,7 @@
                </div>
 
                <!-- Play Button -->
-               <button class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer">
+               <button @click="isVideoOpen = true" class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer">
                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-black ml-0.5">
                    <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd" />
                  </svg>
@@ -112,9 +112,34 @@
         </div>
       </div>
     </div>
+
+    <!-- Video Modal -->
+    <Teleport to="body">
+      <div v-if="isVideoOpen" class="fixed inset-0 z-[9999] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4" @click="isVideoOpen = false">
+        <div class="relative w-full max-w-4xl aspect-video bg-black rounded-3xl overflow-hidden shadow-2xl" @click.stop>
+          <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/watch?v=1cME3M5A5qY?autoplay=0" 
+            title="Yoga Video" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+          <!-- Close Button -->
+          <button @click="isVideoOpen = false" class="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/40 backdrop-blur-md rounded-full flex items-center justify-center text-white transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </Teleport>
   </section>
 </template>
 
 <script setup>
-// FeatureSection Component
+import { ref } from 'vue';
+
+const isVideoOpen = ref(false);
 </script>

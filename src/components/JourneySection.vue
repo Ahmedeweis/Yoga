@@ -44,7 +44,11 @@
 
 
         <!-- Card 2 -->
-        <div style="box-shadow:0px 20px 20px 10px rgba(0, 0, 0, 0.25)" class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer border border-gray-100 shadow-xl hover:shadow-2xl hover:transition-all duration-500 ease-out"> <!-- Staggered effect box -->
+        <div class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer border border-gray-100 
+            shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] 
+            hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4)] 
+            hover:-translate-y-2 
+            transition-all duration-500 ease-out">
           <img src="../assets/imgs/juorny2.webp" alt="Stress Reduction" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
 
@@ -62,7 +66,11 @@
           </div>
         </div>
 <!-- Card 3 -->
-<div style="box-shadow:0px 20px 20px 10px rgba(0, 0, 0, 0.25)" class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer border border-gray-100 shadow-xl hover:shadow-2xl hover:transition-all duration-500 ease-out">
+<div class="group relative h-[420px] rounded-3xl overflow-hidden cursor-pointer border border-gray-100 
+            shadow-[0_20px_40px_-15px_rgba(0,0,0,0.3)] 
+            hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4)] 
+            hover:-translate-y-2 
+            transition-all duration-500 ease-out">
   <!-- Image -->
   <img
     src="../assets/imgs/juorny1.webp"

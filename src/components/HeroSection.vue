@@ -16,7 +16,7 @@
           your lifestyle
         </h1>
 
-        <button class="group flex items-center gap-3 bg-white text-black px-4 py-2 rounded-full font-semibold hover:bg-gray-100 transition-all shadow-lg shadow-white/10">
+        <button class="group flex items-center gap-3 bg-white text-black px-4 py-2 rounded-full font-semibold hover:bg-gray-100 hover:scale-105 hover:shadow-xl hover:shadow-white/20 transition-all duration-300 shadow-lg shadow-white/10">
           Get In Touch
             <span class="w-8 -mr-2 h-8 bg-[#1f2937] text-white rounded-full flex items-center justify-center group-hover:rotate-45 transition-transform">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">

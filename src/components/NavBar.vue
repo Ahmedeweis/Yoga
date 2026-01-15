@@ -3,20 +3,20 @@
     <div class="container mx-auto px-6">
       <nav class="w-full flex justify-between items-center text-white bg-white/10 backdrop-blur-md rounded-full border border-white/10 px-6 py-4">
         <!-- Logo -->
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden p-1">
+        <div class="flex items-center gap-3 group cursor-pointer">
+          <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden p-1 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
             <img src="../assets/imgs/logo.webp" alt="Logo" class="w-full h-full object-contain" />
           </div>
-          <span class="font-display font-bold text-xl tracking-wide">Medtronic</span>
+          <span class="font-display font-bold text-xl tracking-wide group-hover:text-gray-200 transition-colors">Medtronic</span>
         </div>
         
         <!-- Desktop Links -->
         <ul class="hidden md:flex items-center gap-10 text-sm font-medium tracking-wide opacity-90">
-          <li><a href="#" class="hover:opacity-100 transition-opacity">Home</a></li>
-          <li><a href="#" class="hover:opacity-100 transition-opacity">Classes</a></li>
-          <li><a href="#" class="hover:opacity-100 transition-opacity">About</a></li>
-          <li><a href="#" class="hover:opacity-100 transition-opacity">Contact</a></li>
-          <li><a href="#" class="hover:opacity-100 transition-opacity">Newsletter</a></li>
+          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Home</a></li>
+          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Classes</a></li>
+          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">About</a></li>
+          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Contact</a></li>
+          <li><a href="#" class="relative after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:scale-x-100 hover:opacity-100 transition-opacity">Newsletter</a></li>
         </ul>
 
         <!-- Desktop Auth -->
